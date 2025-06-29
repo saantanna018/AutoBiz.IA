@@ -1,0 +1,139 @@
+🎯 CONTEXTO DEL PROYECTO
+
+Estoy creando AutoBiz.AI, una plataforma SaaS que permite a los usuarios lanzar su propio negocio digital (landing page, productos, emails, contenido) automáticamente usando inteligencia artificial. El usuario selecciona el nicho, objetivo y estilo, y la plataforma le genera todo (sitio, textos, automatizaciones, pagos).
+
+⸻
+
+📐 INSTRUCCIONES GENERALES
+
+Genera una interfaz web moderna y responsiva con diseño SaaS premium, usando TailwindCSS + React/Next.js, siguiendo principios de UX claros. La estructura debe ser modular y fácilmente escalable. El diseño debe ser profesional, limpio, con CTA claros.
+
+⸻
+
+🧱 ESTRUCTURA DE LA WEB (PÁGINA PRINCIPAL DEL MVP)
+
+	1.	Header
+
+	•	Logo (AutoBiz.AI)
+
+	•	Menú: Inicio, Cómo Funciona, Precios, Iniciar Sesión, Empieza Gratis
+
+	•	Sticky, con fondo blanco y sombra sutil
+
+	2.	Hero Section
+
+	•	Título: “Lanza tu negocio digital en minutos con IA”
+
+	•	Subtítulo: “Genera una web, emails, productos y automatizaciones con solo responder 3 preguntas”
+
+	•	Botón CTA: “Empieza Gratis” (scroll o signup modal)
+
+	•	Imagen o animación de ejemplo del flujo (puede ser un mockup de dashboard IA)
+
+	3.	Cómo Funciona
+
+	•	3 pasos visuales (con íconos o cards):
+
+	•	Paso 1: “Elige tu idea”
+
+	•	Paso 2: “IA lo construye todo”
+
+	•	Paso 3: “Actívalo y empieza a vender”
+
+	•	Estilo ilustrativo o cards con hover effect
+
+	4.	Sección de Plantillas
+
+	•	Carrusel o grid con ejemplos de negocios:
+
+	•	Newsletter de marca personal
+
+	•	eBook para coaches
+
+	•	Página para vender servicios
+
+	•	Tienda de cursos
+
+	•	Cada card debe tener título + botón “Probar esta plantilla”
+
+	5.	Testimonios
+
+	•	Slider con 3-4 reseñas (reales o ficticias)
+
+	•	Nombre + avatar + breve frase
+
+	6.	Planes de precios
+
+	•	3 columnas:
+
+	•	Starter (Gratis)
+
+	•	Pro (29 €/mes)
+
+	•	Business (69 €/mes)
+
+	•	Cada uno con beneficios comparativos (colores distintos)
+
+	•	Botón “Suscribirse” en cada uno
+
+	7.	FAQ
+
+	•	Preguntas frecuentes en formato acordeón
+
+	8.	Footer
+
+	•	Links: Términos, Política, Contacto, Blog
+
+	•	Redes sociales
+
+	•	Copyright
+
+⸻
+
+🎨 ESTILO VISUAL
+
+	•	Colores: blanco, azul #2563eb, negro, gris neutro
+
+	•	Tipografía: Inter o similar moderna sans-serif
+
+	•	Estilo: SaaS moderno, animaciones suaves, dark/light ready
+
+	•	Mobile-first + 100% responsive
+
+⸻
+
+💡 FUNCIONALIDADES (no funcional, solo maquetación)
+
+	•	Botones con efecto hover
+
+	•	Sticky header
+
+	•	Secciones bien espaciadas
+
+	•	Preparado para conectar a Supabase / Stripe en futuro
+
+	•	Componentes con props si usas React
+
+⸻
+
+⚙️ EXTRAS (opcional si hay tiempo de ejecución)
+
+	•	Modal para registrarse con email
+
+	•	Placeholder para video demo (YouTube embed)
+
+	•	Llamadas a la acción repetidas (CTA sticky abajo en mobile)
+
+⸻
+
+EJEMPLO DE PROMPT CORTO PARA USO RÁPIDO EN V0.dev:
+
+“Crea una página de inicio para AutoBiz.AI, una plataforma SaaS que permite a los usuarios lanzar negocios digitales automáticamente con IA. La página debe tener una sección hero con título y botón, una sección ‘Cómo funciona’ con 3 pasos, una galería de plantillas de negocios, precios con 3 planes (Gratis, Pro, Business), y un footer completo. Usa un diseño moderno, profesional, con TailwindCSS y layout responsive.”
+
+⸻
+
+➕ ¿Quieres llevarlo a Replit (full-stack)?
+
+Puedo darte el backend en Express + lógica de registro con Supabase + llamadas a la API de OpenAI y Stripe si quieres un prompt tipo:
+
+“Crea un backend con Express que gestione usuarios, autenticación con Supabase, suscripciones con Stripe y generación de contenido usando la API
